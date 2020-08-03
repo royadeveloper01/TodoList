@@ -1,12 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, #ad9191, #b4b42f);
+}
+
 .coolTitle {
   text-align: center;
   font-family: 'Oswald', Helvetica, sans-serif;
+  margin-top: 150px;
   font-size: 40px;
   transform: skewY(-10deg);
   letter-spacing: 4px;
   word-spacing: -8px;
-  color: tomato;
-  text-shadow: 
+  color: #f34e4e;
+  /* text-shadow: 
     -1px -1px 0 firebrick,
     -2px -2px 0 firebrick,
     -3px -3px 0 firebrick,
@@ -15,7 +26,22 @@
     -6px -6px 0 firebrick,
     -7px -7px 0 firebrick,
     -8px -8px 0 firebrick,
-    -30px 20px 40px dimgrey;
+    -30px 20px 40px dimgrey; */
+}
+
+#userinput {
+  height: 50px;
+  margin: 30px 0px;
+  outline: none;
+}
+
+#enter {
+  height: 50px;
+  width: 50px;
+}
+
+#enter:hover {
+  background: linear-gradient(-90deg, #ad9191, #b4b42f);
 }
 
 .done {
